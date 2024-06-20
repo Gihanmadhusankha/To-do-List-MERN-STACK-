@@ -13,6 +13,7 @@ const Create = () => {
     }
   return (
     <div>
+        
         <input type="text" placeholder='Enter Task' onChange={(e)=>setTask(e.target.value)} />
         <button type="button" onClick={handleAdd}>Submit</button>
 
